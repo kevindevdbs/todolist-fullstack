@@ -100,7 +100,7 @@ export default function Home() {
 
   return (
     <main className="bg-blue-200 min-h-screen w-full flex justify-center items-start md:items-center py-6 px-2">
-      <Card className="w-full max-w-[350px] rounded-2xl p-4 md:p-8 shadow-xl border border-gray-200 bg-white/90 backdrop-blur-md">
+      <Card className="w-full max-w-[350px] md:max-w-[600px] lg:max-w-[700px] rounded-2xl p-4 md:p-10 shadow-xl border border-gray-200 bg-white/90 backdrop-blur-md transition-all">
         <CardHeader className="flex gap-2 p-0">
           <Input
             onChange={(e) => setTask(e.target.value)}
